@@ -1,0 +1,27 @@
+{
+  "name": "binance-n8n-short-signal",
+  "version": "1.0.0",
+  "description": "this repo contains several script that will be used by a n8n's workflow in order to trigger short's signals by analizing data from Binance futures",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "binance",
+    "n8n",
+    "typescript",
+    "ai",
+    "gemini"
+  ],
+  "author": "sebaeze@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@binance/connector": "^3.6.1",
+    "@binance/derivatives-trading-usds-futures": "^3.0.0",
+    "@types/node": "^22.15.17",
+    "dotenv": "^16.5.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "winston": "^3.17.0"
+  }
+}
